@@ -5,8 +5,6 @@ metadata:
   namespace: app
 spec:
   releaseName: podinfo
-  storageNamespace: helm-storage
-  serviceAccountName: app-reconciler
   chart:
     spec:
       chart: podinfo
@@ -18,5 +16,3 @@ spec:
   install:
     remediation:
       retries: 3
-  # Default values
-  # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml

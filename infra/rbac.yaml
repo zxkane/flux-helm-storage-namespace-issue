@@ -64,8 +64,6 @@ rules:
   - "source.toolkit.fluxcd.io"
   resources: 
   - helmrepositories
-  resourceNames:
-  - bitnami
   verbs:
   - get
 - apiGroups:
